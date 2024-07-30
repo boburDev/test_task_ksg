@@ -1,0 +1,27 @@
+{
+  "name": "test_task_ksg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boburDev/test_task_ksg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boburDev/test_task_ksg/issues"
+  },
+  "homepage": "https://github.com/boburDev/test_task_ksg#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-postgres": "^3.7.0"
+  }
+}
